@@ -32,6 +32,33 @@
             }else{
                 echo "Uh-Oh! Seems like you have to wait ".(18-$age)."years more";  //  '.' dot is the concatination operator
             }
+
+            $languages = array('cpp','python','go','ruby');
+            echo "<br>";
+            echo $languages[0];
+            echo "<br>";
+            echo count($languages);
+            echo "<br>";
+
+            foreach($languages as $lang){
+                echo "I am currently learning : ".$lang;
+                echo "<br>";
+            }
+
+            function demo(){
+                echo "Hi I am a function and you called me";
+                echo "<br>";
+            }
+
+            demo();
+
+            function printMyname($name){
+                echo "Hey ";
+                echo $name;
+                echo "<br>";
+            }
+
+            printMyname("Aditya Gupta");
         ?>
     </div>
 </body>
