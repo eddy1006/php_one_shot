@@ -59,6 +59,9 @@
             }
 
             printMyname("Aditya Gupta");
+
+            $associativeArray = array("name"=>"Aditya","age"=>"19");
+            echo $associativeArray["name"]." ".$associativeArray["age"];
         ?>
     </div>
 </body>
